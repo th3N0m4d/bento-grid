@@ -1,0 +1,26 @@
+/*
+    This file holds your CSS custom properties (variables), including colors, font sizes, spacing, and other reusable values. 
+    Defining them in a separate file keeps your design system easy to update.
+*/
+:root {
+  /* Primary Colors */
+  --primary-color: #3498db; /* Main color for branding (e.g., buttons, links) */
+  --secondary-color: #2ecc71; /* Accent or complementary color */
+
+  /* Background Colors */
+  --background-color: #f5f5f5; /* Main background color */
+  --section-background-color: #f5f5f5; /* Background for different sections (e.g., hero, footer) */
+
+  /* Text Colors */
+  --text-color: #333333; /* Main text color */
+  --text-light-color: #666666; /* Lighter text for secondary information */
+
+  /* Border and Shadow Colors */
+  --border-color: #dddddd; /* Border color for dividing elements */
+  --shadow-color: rgba(0, 0, 0, 0.1); /* Shadow color for subtle depth */
+
+  /* Alert or Action Colors */
+  --success-color: #2ecc71; /* Success messages or actions */
+  --warning-color: #f1c40f; /* Warnings or cautionary elements */
+  --error-color: #e74c3c; /* Errors or important alerts */
+}

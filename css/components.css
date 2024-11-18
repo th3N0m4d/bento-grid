@@ -1,0 +1,15 @@
+/* 
+    This file defines styles for reusable components such as buttons, cards, forms, and alerts. 
+    Component styles are often modular and specific to particular elements. 
+*/
+.button {
+  padding: var(--spacing-small) var(--spacing-medium);
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--secondary-color);
+}

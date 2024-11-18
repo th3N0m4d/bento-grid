@@ -1,0 +1,27 @@
+/* 
+    This file contains global styles, such as CSS resets, body styles, default font sizes, and typography rules for headings and paragraphs. 
+    It’s used to ensure consistency across browsers and establish basic global styling. 
+*/
+/* Reset styles (you can use a library like Normalize or a custom reset) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: var(--font-size-base);
+  font-family: Arial, sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-medium);
+}

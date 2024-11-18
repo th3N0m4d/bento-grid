@@ -1,0 +1,14 @@
+/*
+This file contains layout styles for your page, such as containers, grids, sections, and navigation bars. 
+It defines the page structure and any overarching layout rules.
+*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-medium);
+}
+
+.section {
+  padding: var(--spacing-large) 0;
+  background-color: var(--section-background-color);
+}
